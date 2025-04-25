@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* GALLERY PAGE */
+.gallery-page {
+    text-align: center;
+}
+
+.gallery-page .gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery-page .gallery-item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: none;
+}
+
+/* HOME PAGE */
+.home-page .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    padding-bottom: 5px;
+}
+
+.home-page th, .home-page td {
+    padding: 5px;
+    text-align: left;
+}
+
+/* LEFT */
+.left-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.left-sidebar li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.left-sidebar a {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.left-sidebar a:hover {
+    background-color: rgb(155, 187, 255);
+    color: white;
+}
+
+.left-sidebar a:focus {
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+.left-sidebar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* RIGHT */
+.right-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.right-sidebar li {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+}
+
+.right-sidebar a {
+    display: inline-block;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.right-sidebar a:hover {
+    background-color: rgb(155, 187, 255);
+    color: white;
+}
+
+.right-sidebar a:focus {
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+.right-sidebar img {
+    width: 20px;
+    height: 20px;
+}
+
+/* STUDY PAGE */
+.study-page {
+    text-align: center;
+    margin: 20px;
+}
+
+.study-page h2 {
+    display: inline-block;
+}
+
+.study-page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.study-page th, .study-page td {
+    padding: 12px;
+    border: 1px solid #000000;
+    text-align: left;
+}
+
+.study-page th {
+    background-color: #818eff;
+    color: white;
+    text-align: center;
+}
+
+.study-page tr {
+    background-color: rgb(206, 211, 255);
+}
