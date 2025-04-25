@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RWD Bootstrap Layout</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <header class="container-fluid p-0">
+        <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="gambar/header1.png" class="d-block w-100" alt="Gambar 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="gambar/header2.png" class="d-block w-100" alt="Gambar 2">
+                </div>
+                <div class="carousel-item">
+                    <img src="gambar/header3.png" class="d-block w-100" alt="Gambar 3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <img src="https://pelajarinfo.id/wp-content/uploads/2022/10/Universitas-Trunojoyo-Madura-Logo.png" alt="Logo" class="logo">
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="home.html" target="main-content">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="study.html" target="main-content">My Study</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html" target="main-content">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="datatables.html" target="main-content">Data Tables</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html" target="main-content">Login</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-3">
+        <div class="row">
+        <aside class="col-md-3 sidebar">
+            <h4>External Links</h4>
+            <ul class="sidebar-links">
+                <li>
+                    <a href="https://nfacademy.id" target="_blank">
+                        <img src="gambar/nfacademy.png" alt="NF" class="sidebar-logo"> NF Academy
+                    </a>
+                </li>
+                <li>
+                    <a href="https://nurulfikri.ac.id" target="_blank">
+                        <img src="gambar/nurulfikri.jpg" alt="NF" class="sidebar-logo"> Nurul Fikri
+                    </a>
+                </li>
+                <li>
+                    <a href="https://getbootstrap.com/" target="_blank">
+                        <img src="gambar/bootstrap.png" alt="Google" class="sidebar-logo"> Bootstrap
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/" target="_blank">
+                        <img src="gambar/w3schools.png" alt="Facebook" class="sidebar-logo"> W3Schools
+                    </a>
+                </li>
+                <li>
+                    <a href="https://datatables.net/" target="_blank">
+                        <img src="gambar/datatables.png" alt="Twitter" class="sidebar-logo"> Data Tables
+                    </a>
+                </li>
+            </ul>
+        </aside>
+
+            <main class="col-md-9 p-4">
+                <iframe id="main-content" name="main-content" src="login.html"></iframe>
+            </main>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-icons" style="color: white;">
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/724/724664.png" alt="Phone">
+            </a> +62 856-0427-5842 <span>|</span>
+            <a href="#">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" alt="Email">
+            </a> bungaayu1364@gmail.com <span>|</span>
+            <a href="https://www.instagram.com/ayusptriii__?igsh=MTZxbzgwNDFxY3Vqbg%3D%3D&utm_source=qr" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+            </a> <span>|</span>
+            <a href="https://www.linkedin.com/in/bunga-ayu-saputri-092a2223a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+                <img src="https://cdn-icons-png.flaticon.com/512/3536/3536505.png" alt="IDN">
+            </a>
+        </div>
+        <p style="color: white;">&copy; 2025 Dibuat Oleh Bunga Ayu Saputri</p>
+    </footer>
+</body>
+</html>

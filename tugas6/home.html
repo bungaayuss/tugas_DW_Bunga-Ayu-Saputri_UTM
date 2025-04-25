@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <style>
+        .profile-header {
+            font-size: 26px;
+            font-weight: bold;
+            color: white;
+            background: #ff6f92;
+            padding: 5px 100px;
+            border-radius: 20px;
+            display: inline-block;
+            position: absolute;
+            top: 90px;
+            left: 90px;
+        }
+        .profile-img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-top: 20px;
+            border: 5px solid #ff6f92;
+            margin-left: 350px;
+        }
+        .profile-table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 80%;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .profile-table th, td {
+            padding: 12px;
+            border-bottom: 1px solid #ff6f92;
+            text-align: left;
+        }
+        .profile-table td:first-child {
+            font-weight: bold;
+            color: #ff6f92;
+            width: 40%;
+        }
+        @media (max-width: 768px) {
+            .profile-header {
+                font-size: 18px;
+                padding: 8px 15px;
+            }
+            .profile-img {
+                width: 100px;
+                height: 100px;
+            }
+            .profile-table {
+                width: 95%;
+            }
+            .profile-table th, .profile-table td {
+                padding: 10px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .profile-header {
+                font-size: 16px;
+                padding: 6px 10px;
+            }
+            .profile-img {
+                width: 80px;
+                height: 80px;
+            }
+            .profile-table th, .profile-table td {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="profile-header">Profil Pribadi</div>
+    <img src="https://i.pinimg.com/originals/0d/5d/08/0d5d08a229f3f53625bb7568f9f9a701.gif" alt="Foto Profil" class="profile-img">
+    <table class="profile-table">
+        <tr>
+            <th>Nama:</th>
+            <td>Bunga Ayu Saputri</td>
+        </tr>
+        <tr>
+            <th>Tempat, Tanggal Lahir: </th>
+            <td>Bangkalan, 13 Juni 2004</td>
+        </tr>
+        <tr>
+            <th>Jenis Kelamin:</th>
+            <td>Perempuan</td>
+        </tr>
+        <tr>
+            <th>Alamat:</th>
+            <td>Sukolilo Barat, Kec Labang</td>
+        </tr>
+        <tr>
+            <th>Email:</th>
+            <td>bungaayu1364@gmail.com</td>
+        </tr>
+        <tr>
+            <th>No. HP:</th>
+            <td>0856-0427-5842</td>
+        </tr>
+        <tr>
+            <th>Pendidikan:</th>
+            <td>Sistem Informasi - Universitas Trunojoyo Madura</td>
+        </tr>
+    </table>
+    </center>
+</body>
+</html>
