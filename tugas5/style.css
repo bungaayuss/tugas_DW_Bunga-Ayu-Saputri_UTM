@@ -1,0 +1,101 @@
+/* Reset default margin & padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Warna utama */
+:root {
+    --primary-color: #af4c74;
+    --secondary-color: #7d2e5f;
+    --light-bg: #f4c3e5;
+    --dark-bg: #5e1b4a;
+    --text-color: white;
+}
+
+/* Container utama */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: var(--light-bg);
+    padding: 5px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    background: var(--primary-color);
+    color: var(--text-color);
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 5px;
+}
+
+/* Navigation */
+nav {
+    width: 100%;
+    background: var(--secondary-color);
+    color: var(--text-color);
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+/* Kontainer utama untuk konten */
+.content-container {
+    display: flex;
+    width: 100%;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px; /* Menambah jarak antar elemen */
+}
+
+/* Sidebar kiri dan kanan */
+aside {
+    flex: 1; /* Biar fleksibel sesuai layar */
+    max-width: 250px; 
+    background: #d6a5ba;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Konten utama */
+main {
+    flex: 2; /* Lebih besar dari sidebar */
+    background: #bb66a1;
+    color: var(--text-color);
+    text-align: center;
+    padding: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    width: 100%;
+    background: var(--dark-bg);
+    color: var(--text-color);
+    text-align: center;
+    font-weight: bold;
+    padding: 25px;
+    font-size: 16px;
+    margin-top: 5px;
+}
